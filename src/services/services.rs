@@ -15,7 +15,7 @@ impl fmt::Display for ImageDownloadError {
         match self {
             ImageDownloadError::Image(e) => write!(f, "Image error: {}", e),
             ImageDownloadError::Reqwest(e) => write!(f, "Reqwest error: {}", e),
-            ImageDownloadError::String(e) => write!(f, "Reqwest error: {}", e),
+            ImageDownloadError::String(e) => write!(f, "Error: {}", e),
         }
     }
 }
