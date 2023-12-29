@@ -1,0 +1,9 @@
+version: '3'
+services:
+  rust-image-processor:
+    build:
+      context: .
+    image: rust-image-processor
+    container_name: rust-image-processor
+    ports:
+      - "8080:8080"

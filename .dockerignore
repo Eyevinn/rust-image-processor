@@ -1,0 +1,5 @@
+# Ignore target directory
+target
+.vscode
+.DS_Store
+docs/.DS_Store
