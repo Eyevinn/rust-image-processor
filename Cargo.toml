@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-image = "0.24.7"
+image = "0.25.9"
 actix-web = "4.4.1"
 thiserror = "1.0.52"
 url = "2.5.0"
