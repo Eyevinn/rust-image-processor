@@ -9,6 +9,6 @@ actix-web = "4.4.1"
 thiserror = "1.0.52"
 url = "2.5.0"
 env_logger = "0.10.1"
-reqwest = { version = "0.11.23", features = ["json", "blocking"] }
+reqwest = { version = "0.12.26", features = ["json", "blocking"] }
 serde = { version = "1.0.193", features = ["derive"] }
 tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
